@@ -8,7 +8,7 @@ console.log(3-6);
 console.log(5+6);
 //multiplicación
 console.log(2*3);
-//división?
+//resto
 console.log(2%3);
 //división
 console.log(4/4);
@@ -16,3 +16,5 @@ console.log(4/4);
 console.log(2+3*6*4-3-2+5%3);
 //controlando la precedencia we
 console.log((2+3)*6*4-3-2+5%3);
+
+
