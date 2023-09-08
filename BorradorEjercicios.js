@@ -193,12 +193,98 @@
 
  // Math.floor para saber si es un numero entero
 
-function esEntero(numero){
-  if (numero - Math.floor(numero) == 0) {
-       console.log("Es un numero entero");
-  } else {
-      console.log("Es un numero decimal");
+// function esEntero(numero){
+//   if (numero - Math.floor(numero) == 0) {
+//        console.log("Es un numero entero");
+//   } else {
+//       console.log("Es un numero decimal");
+//   }
+// };
+
+// esEntero(2);
+
+function operadoresLogicos4(num1, num2, num3) {
+  // La función recibe tres números distintos.
+  // Si num1 es mayor a num2 y a num3, y además es positivo, retornar ---> "Numero 1 es mayor y positivo".
+  // Si alguno de los tres números es negativo, retornar ---> "Hay negativos".
+  // Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
+  // Si todos los argumentos son cero, retornar ---> "Error".
+  // Si no se cumple ninguna de las condiciones anteriores, retornar false.
+  // Tu código:
+  if(num1 > num2, num3 && num1 >= 0){
+     return 'Numero 1 es mayor y positivo';
+  }
+  else if (num1 <= 0 || num2 <= 0 || num3 <= 0) {
+     return 'Hay negativos';
+  }
+  else if (num3 > num1 && num3 > num2){
+     return num3 + 1;
+  } 
+  };
+
+
+  // codigo copy
+
+  // function operadoresLogicos(num1, num2, num3) {
+  //   //La función recibe tres números distintos. 
+  //   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
+  //   //Si alguno de los tres números es negativo, retornar ---> "Hay negativos"
+  //   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
+  //   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
+  //   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
+  //   if (num1 === 0 || num2 === 0 || num3 === 0 ) {
+  //     return "Error"
+  //   } else if (num1 > num2 || num1 > num3 || num1 > 0) {
+  //     return "Numero 1 es mayor y positivo"
+  //   } else if (num1 < 0 || num2 < 0 || num < 0 ) {
+  //     return "Hay negativos"
+  //   } else if (num3 > num1 && num3 > num2) {
+  //     num3 += 1;
+  //     return num3
+  //   } else {
+  //     return false
+  //   }
+  // };
+
+
+//   function esPrimo(num) {
+//     // Retornar true si "num" es primo.
+//     // De lo contrario retorna false.
+//     // [Pista 1]: un número primo sólo es divisible por sí mismo y por 1.
+//     // [Pista 2]: puedes resolverlo utilizando un `bucle for`.
+//     // [Nota]: los números negativos, 0 y 1 NO son números primos.
+//     // Tu código:
+//     if(num <= 1){
+//       return false;
+//     }
+//     for (var i = 2; i < num; i++){
+//       if (num % 1 === 0){
+//         return false;
+//       }
+//     }
+//  };
+ 
+// function esVerdadero(valor) {
+//   // Si "valor" es verdadero retornar "Soy verdadero".
+//   // Caso contrario, retornar "Soy falso".
+//   // Tu código:
+//  if(valor === true){
+//   console.log('Soy verdadero')
+//  }
+//  else if(valor === false){
+//   console.log('Soy falso')
+//  }
+// };
+
+// esVerdadero(false);
+
+function tieneTresDigitos(num){
+  if(num.length === 3){
+    console.log(true)
+  }
+  else {
+    console.log(false);
   }
 };
 
-esEntero(2);
+tieneTresDigitos('alm');

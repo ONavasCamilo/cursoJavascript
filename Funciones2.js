@@ -16,7 +16,7 @@ function cuidadoConElReturn(nombre) {
 }
 
 
-function pruebaParaComprobarCommit(commit) {
-    return commit
-    console.log(nombre);
-}
+// function pruebaParaComprobarCommit(commit) {
+    // return commit
+   //  console.log(nombre);
+// }
