@@ -137,15 +137,17 @@
 // };
 
 
-function encontrarLetraP(str) {
-  var letras  = str.split('');
+// function encontrarLetraP(str) {
+//   var letras  = str.split('');
 
-  for(let i = 0; i < letras.length; i++){
-    if (letras[i] === "p") {
-      console.log('Si contiene a P');
-    }
-  }
-}
+//   for(let i = 0; i < letras.length; i++){
+//     if (letras[i] === "p") {
+//       console.log('Si contiene a P');
+//     }
+//   }
+// }
 
-encontrarLetraP('JavaScript');
-encontrarLetraP('henry');
+// encontrarLetraP('JavaScript');
+// encontrarLetraP('henry');
+
+
