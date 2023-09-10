@@ -278,13 +278,37 @@ function operadoresLogicos4(num1, num2, num3) {
 
 // esVerdadero(false);
 
-function tieneTresDigitos(num){
-  if(num.length === 3){
-    console.log(true)
-  }
-  else {
-    console.log(false);
-  }
-};
 
-tieneTresDigitos('alm');
+//MAL INTENTO
+// function tieneTresDigitos(num){
+//   if(num.length === 3){
+//     console.log(true)
+//   }
+//   else {
+//     console.log(false);
+//   }
+// };
+
+// tieneTresDigitos('alm');
+
+// function doWhile(num) {
+//   // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
+//   // Retornar el valor final.
+//   // Utilizar el bucle Do-While.
+//   // Tu código:
+//     var cont = 8;
+//     var result = 0;
+//     do{
+//      result += 5
+//      cont -= 1
+//     }while(cont !== 0)
+//     return num + result;
+// }
+
+function multiplicarArgumentos() {
+  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto.
+  // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
+  // [PISTA]: "arguments" es un arreglo.
+  // Tu código:
+  
+}
