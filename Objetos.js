@@ -6,8 +6,8 @@
 var persona = {
     nombre: "Lucas",
     edad: "26",
-   // objeto en un objeto
-    estudios: { esProgramador: true}
+    // objeto en un objeto
+    estudios: { esProgramador: true }
 }
 
 // console.log(persona.edad);
@@ -34,8 +34,8 @@ persona.edad = 32;
 // misFunciones.saludar();
 
 var atuendos = {
-    manos: ['Guantes', 'Anillos'] ,
-     pies: ['Zapatos', 'Soquetes']
+    manos: ['Guantes', 'Anillos'],
+    pies: ['Zapatos', 'Soquetes']
 };
 
 // console.log(atuendos.manos);
@@ -84,11 +84,11 @@ atuendos["Piernas"] = ['Bermudas', 'Pantalones'];
 
 var mascota = {
     animar: 'perro',
-     raza: 'Ovejero alemán',
-      amistoso: true,
-       dueña: 'María López',
-        info: function(){
-            console.log('La dueña del ' + this.animar  + ' ' + this.raza + ' se llama ' + this.dueña);
+    raza: 'Ovejero alemán',
+    amistoso: true,
+    dueña: 'María López',
+    info: function () {
+        console.log('La dueña del ' + this.animar + ' ' + this.raza + ' se llama ' + this.dueña);
     },
 };
 

@@ -36,7 +36,7 @@ colores.shift();
 console.log(colores);
 
 var pintores = ['Picasso','Velazquez','Van Gogh','Dalí']
-var incluyeDali = pintores.includes('Monet');
+var incluyeDali = pintores.includes('Dalí');
 console.log(incluyeDali);
 
 var numeros = [10, 6, 8, 9];
@@ -97,7 +97,7 @@ var arr = [1, 2, 3, 4, 5];
 
 for(var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
-};
+}; 
 
 function encontrarLaLetraP(string) {
     var letras = string.split('');

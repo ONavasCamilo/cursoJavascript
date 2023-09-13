@@ -5,9 +5,9 @@ function cuidadoConElConsoleLog(nombre) {
 
 
 function otraFuncion() {
-    return ("el nombre retornado por la funcion 'cuidadoConElConsoleLog' es: " + 
-    cuidadoConElConsoleLog('Camilo')
-    ); 
+    return ("el nombre retornado por la funcion 'cuidadoConElConsoleLog' es: " +
+        cuidadoConElConsoleLog('Camilo')
+    );
 }
 
 function cuidadoConElReturn(nombre) {
@@ -17,6 +17,6 @@ function cuidadoConElReturn(nombre) {
 
 
 // function pruebaParaComprobarCommit(commit) {
-    // return commit
-   //  console.log(nombre);
+// return commit
+//  console.log(nombre);
 // }
